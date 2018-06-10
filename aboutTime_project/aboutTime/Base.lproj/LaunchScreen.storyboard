@@ -21,9 +21,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_screen" translatesAutoresizingMaskIntoConstraints="NO" id="j7i-A4-dnB">
                                 <rect key="frame" x="0.0" y="20" width="375" height="547"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading～～～～～" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqI-TS-HxF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading.." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqI-TS-HxF">
                                 <rect key="frame" x="100" y="575" width="175" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NBA edition" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9XA-Wj-j8M">
+                                <rect key="frame" x="100" y="603" width="175" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -34,9 +40,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j7i-A4-dnB" secondAttribute="trailing" id="KFa-KF-AmH"/>
                             <constraint firstItem="j7i-A4-dnB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Njm-oY-CbC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vqI-TS-HxF" secondAttribute="trailing" constant="100" id="OvR-hs-n7Y"/>
+                            <constraint firstItem="9XA-Wj-j8M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="cKX-a2-c2Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9XA-Wj-j8M" secondAttribute="bottom" constant="43" id="cO6-Fr-miZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="j7i-A4-dnB" secondAttribute="bottom" constant="100" id="cdj-nh-hNZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vqI-TS-HxF" secondAttribute="bottom" constant="71.5" id="iUW-mc-h3E"/>
                             <constraint firstItem="j7i-A4-dnB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lzQ-Bs-t21"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9XA-Wj-j8M" secondAttribute="trailing" constant="100" id="x7D-bo-qg9"/>
+                            <constraint firstItem="9XA-Wj-j8M" firstAttribute="top" secondItem="vqI-TS-HxF" secondAttribute="bottom" constant="8" id="y0t-Ej-ao2"/>
                             <constraint firstItem="vqI-TS-HxF" firstAttribute="top" secondItem="j7i-A4-dnB" secondAttribute="bottom" constant="8" id="zjZ-MO-P2O"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

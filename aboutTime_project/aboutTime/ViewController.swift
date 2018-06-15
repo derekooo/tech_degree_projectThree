@@ -141,6 +141,10 @@ class ViewController: UIViewController {
             timerOn = false
             loadNextRound(delay: 2)
             eventManager.eventFinished += 1
+            let result = eventManager.correctAnswer(events: currentRound!) == currentRound!
+            if result {
+                eventManager.gameScore += 1
+            }
             statusLabel.text = "Running out of Time!"
         
             timePerRound = 60
